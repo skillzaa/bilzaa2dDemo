@@ -1,0 +1,16 @@
+{
+  "name": "bilzaa2d_demo001",
+  "version": "0.0.1",
+  "description": "starting to use bilzaa2d for the first time",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "bro": "browserify index.js -o ./dist/bundle.js"
+  },
+  "author": "Bilal Tariq",
+  "license": "ISC",
+  "dependencies": {
+    "bilzaa2d": "0.0.1",
+    "shapes99": "^0.2.9"
+  }
+}
