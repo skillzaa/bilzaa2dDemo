@@ -6,7 +6,7 @@ export default {
     input: './index.js',
  //   plugins: [terser()],
     output: {
-      file: 'dist/',
+      file: 'dist/index.js',
       format: 'es'
     }
   };
