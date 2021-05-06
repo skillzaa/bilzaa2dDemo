@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "bro": "browserify index.js -o ./dist/bundle.js"
+    "bro": "browserify index.js -o ./dist/bundle.js",
+    "dist": "rollup -c"
   },
   "author": "Bilal Tariq",
   "license": "ISC",
   "dependencies": {
-    "bilzaa2d": "0.0.1",
-    "shapes99": "^0.2.9"
+    "bilzaa2d": "0.0.2",
+    "uglify-js": "^3.13.5"
+  },
+  "devDependencies": {
+    "rollup": "^2.47.0"
   }
 }
